@@ -24,4 +24,18 @@
 
 96.8 */
 
+#include <stdio.h>
+
+int main(){
+
+        for(int i = 0; i<= 100; i++){
+        double f;
+        printf("섭씨 온도를 작성하시오 : ");
+        scanf("%d", &i);
+        f = ((double)9/(double)5 * i)+32;
+        printf("섭씨 %d도=> 화씨 %.1f도\n", i,f );
+        }
+        
+        return 0;
+}
 
